@@ -25,6 +25,7 @@ ghFolding.csproj          Project file (multi-target, Grasshopper 8.x NuGet)
 ghFoldingInfo.cs          GH_AssemblyInfo -- plugin metadata
 ghFoldingComponent.cs     Archimedean spiral component
 SpiralMaker.cs            Fibonacci spiral component
+FlatFoldLayout.cs         2-vertex flat-fold crease layout (Justin path, annular ribbon)
 Properties/               Assembly attributes
 ```
 
@@ -63,3 +64,4 @@ Run `/style` for the full reference.
 | `/style` | Full Google C# style conventions for this project |
 | `/gh-component` | Scaffold and patterns for new Grasshopper components |
 | `/review` | Code review checklist |
+| `/justin-path` | Justin theorem, reflection matrices, flat-foldability analysis, annular surface extraction |
